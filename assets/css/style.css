@@ -1,0 +1,355 @@
+/*----------------------------------------------------
+
+Template Name   : new psd
+Description     :its is simple psd
+Author          :sumon barai
+Version         :1.10
+
+------------------------------------------------------
+    ==============
+     CSS INDEX
+    ==============
+    1. Theme default css
+    2. header-area
+    3. work-area
+    4. portfolio-area
+    5. photograpy-area
+    6. newsletter-area
+    7. footer-area
+  
+-----------------------------------------------------*/
+/* font import */
+
+/*---- Theme default css
+============================================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px; 
+    line-height: 24px;
+}
+h1,
+h2,
+h3,
+h5,
+h4,
+h6{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 85px;
+}
+.section-title{
+    color: #fff;
+    font-size: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.section-btn{
+    text-align: center;
+    transition: all ease 1s;
+}
+.section-btn a{
+    display: inline-block;
+    background-color: #7b77c9;
+    color: #fff;
+    text-transform: capitalize;
+    width: 230px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 5px;
+}
+.section-btn:hover{
+    transform: rotateY(360deg);
+}
+/*---- header-area
+============================================= */
+.header-area{
+    background-color: #23232e;
+    color: #fff;
+    text-align: center;
+    height: 90vh;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    position: relative;
+}
+.header-area .title-part a{
+    width: 120px;
+    display: inline-block;
+}
+.header-area .title-part a img{
+    width: 100%;
+}
+.header-area .title-part h1{
+    padding-top: 180px;
+    padding-bottom: 42px;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.header-area .title-part p{
+    font-size: 18px;
+    max-width: 450px;
+    margin: auto;
+    line-height: 24px;
+}
+.header-area .title-part i{
+    width: 35px;
+    height: 35px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    line-height: 35px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all ease .3s;
+}
+.header-area .title-part i:hover{
+    color: #7b77c9;
+}
+/*---- work-area
+============================================= */
+.work-area {
+    background: #fff  url("../images/overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.work-area .work-details p{
+    width: 92%;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 15px auto;
+    padding: 15px 0;
+    color: #464b4f;
+    text-align: center;
+}
+.work-area .section-title{
+    color: #464b4f;
+}
+.work-area .work-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,min-content);
+    grid-gap:20px;
+    grid-auto-rows: repeat(1,min-content);
+} 
+.work-area .work-grid .work-grid-items h5 {
+	font-size: 20px;
+	color: #464b4f;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.work-area .work-grid .work-grid-items p {
+	font-size: 18px;
+	color: #888a8b;
+    line-height: 30px;
+    text-align: left;  
+}
+/*----portfolio-area 
+============================================= */
+.portfolio-area{
+    background-color: #23232e;
+}
+/* -----mixitup button---- */
+.portfolio-nav ul {
+	text-align: center;
+}
+.portfolio-nav ul li {
+	display: inline;
+}
+.portfolio-nav ul li button {
+	text-transform: capitalize;
+	background: transparent;
+	color: #fff;
+    font-size: 15px;
+	border: transparent;
+	padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+	border-bottom: 2px solid transparent;
+    transition: all ease .5s;
+    cursor: pointer;
+}
+.portfolio-nav ul li button:hover{
+    border-bottom: 2px solid #7b77c9
+}
+.mixitup-control-active{
+    border-bottom: 2px solid #7b77c9 !important;
+}
+/* -----mixitup content---- */
+.portfolio-area .portfolio .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,min-content);
+    grid-gap:20px;
+    grid-auto-rows: repeat(1,min-content);
+    text-align: center;
+    margin: 30px 0;
+}
+.portfolio-area .portfolio .content a img{
+    width: 100%;
+}
+.portfolio-area .portfolio .content h5{
+    font-size: 21px;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.portfolio-area .portfolio .content span{
+    font-size: 15px;
+    display: inline-block;
+    color: #818baa;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+/*----photograpy-area 
+============================================= */
+.photograpy-area {
+    background: #fff  url("../images/overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.photograpy-area .photograpy-details p{
+    width: 92%;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 15px auto;
+    padding: 15px 0;
+    color: #464b4f;
+    text-align: center;
+}
+.photograpy-area .section-title{
+    color: #464b4f;
+}
+.photograpy-area .photograpy-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,min-content);
+    grid-gap:20px;
+    grid-auto-rows: repeat(1,min-content);
+} 
+.photograpy-area .photograpy-grid img{
+    width: 100%;
+}
+.photograpy-area .photograpy-grid .photograpy-grid-items h5 {
+	font-size: 20px;
+	color: #464b4f;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.photograpy-area .photograpy-grid .photograpy-grid-items p {
+	font-size: 18px;
+	color: #888a8b;
+    line-height: 30px;
+    text-align: left;  
+}
+.photograpy-area .section-btn{
+    margin-top: 80px;
+}
+/*---- newsletter-area
+============================================= */
+.newsletter-area{
+    background-color: #23232e;
+    color: #fff;
+    text-align: center;
+}
+.newsletter-area .newsletter-content{
+    padding: 55px 0;
+}
+.newsletter-area img{
+   width: 85px;
+   margin: 0 auto;
+}
+.newsletter-area p{
+   font-size: 18px;
+   line-height: 30px;
+   max-width: 440px;
+   margin: 30px auto;
+   padding: 0 10px;
+}
+.newsletter-area form{
+    margin: 30px 0;
+}
+.newsletter-area input:first-child {
+	width: 380px;
+	height: 60px;
+    line-height: 60px;
+	font-size: 16px;
+	background-color: #fff;
+	border: 0;
+	border-radius: 10px;
+    padding: 0 20px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+}
+.newsletter-area input:last-child {
+	width: 210px;
+	height: 60px;
+    line-height: 60px;
+	font-size: 18px;
+	background-color: #7b77c9;
+    color: #fff;
+    text-transform: capitalize;
+	border: 0;
+	border-radius: 10px;
+    margin-left: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/*---- footer-area
+============================================= */
+.footer-area{
+    background: #fff  url("../images/overlay.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    color: #7c7c7c;
+}
+.footer-area .social-icon a{
+    color: #dbdbdb;
+    display: inline-block;
+    padding: 15px;
+    font-size: 35px;
+} 
+.footer-area p{
+    color: #7c7c7c;
+    line-height: 30px;
+    font-size: 19px;
+    max-width: 500px;
+    margin: 8px auto;
+    padding: 0 10px;
+   
+} 

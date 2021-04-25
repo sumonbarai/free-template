@@ -1,0 +1,152 @@
+@media screen and (max-width: 992px) {
+    .section-title{
+        font-size: 30px; 
+    }
+    .section-padding{
+        padding-top: 80px;
+        padding-bottom: 70px;
+    }
+    .header-area .title-part h1 {
+        padding-top: 140px;
+    }
+    /* work-area */
+    .work-area .work-grid .work-grid-items h5 {
+        text-align: center;
+    }
+    /* portfolio-area  */
+    .portfolio-area .portfolio .row{
+        grid-template-columns: repeat(3,1fr);
+    }
+    /* photograpy-area  */
+    .photograpy-area .photograpy-grid{
+        grid-template-columns: repeat(3,1fr); 
+    } 
+}
+@media screen and (max-width: 768px) {
+    .section-btn:hover{
+        transform: rotateY(0);
+    }
+    .section-title{
+        font-size: 24px; 
+    }
+    /* header-area */
+    .header-area {
+        height: 50vh;
+        padding-top: 35px; 
+    }
+    .header-area .title-part a {
+        width: 80px;
+    }
+    .header-area .title-part h1 {
+        font-size: 55px;
+        padding-top: 5px;
+        padding-bottom: 5px;    
+    }
+    /* work-area */
+    .work-area .work-grid{
+        grid-template-columns: repeat(1,1fr);   
+    } 
+    .work-area .work-grid .work-grid-items h5 {
+        text-align: center;
+    }
+    /* portfolio-area  */
+    .portfolio-area .portfolio .row{
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* photograpy-area  */
+    .photograpy-area .photograpy-grid{
+        grid-template-columns: repeat(2,1fr); 
+    }
+    .photograpy-area .photograpy-details p {
+        font-size: 24px;
+        padding: 0 0;
+        padding-bottom: 8px;
+    }
+    /* newsletter-area */
+    .newsletter-area input:first-child {
+        height: 50px;
+        line-height: 50px;
+    }
+    .newsletter-area input:last-child {
+        height: 50px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .section-btn a {
+        width: 200px;
+        height: 52px;
+        line-height: 52px;
+    }
+    /* header-area */
+    .header-area .title-part a {
+        width: 60px;
+    }
+    .header-area .title-part h1 {
+        font-size: 40px;
+    }
+    .header-area .title-part p{
+        font-size: 15px;  
+    }
+    /* portfolio-area */
+    .portfolio-nav ul li button {
+        padding-left: 2px;
+        padding-right: 2px; 
+    }
+    /* photograpy-area  */
+    .photograpy-area .photograpy-details p {
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .work-area .work-details p {
+        font-size: 21px;
+        line-height: 29px;
+    }
+    /* work-area */
+    .work-area .work-details p {
+        font-size: 23px;
+    }
+     /* newsletter-area */
+    .newsletter-area .newsletter-content {
+        padding: 0 0;
+    }
+    /* footer-area */
+    .newsletter-area input:first-child {
+        height: 45px;
+        line-height: 45px;
+        margin-right: 0;
+    }
+    .newsletter-area input:last-child {
+        height: 45px;
+        line-height: 45px;
+        margin-left: 0;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .section-btn a {
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    .section-padding{
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+     /* newsletter-area */
+     .newsletter-area input:first-child {
+        width: 300px;   
+    }
+    .newsletter-area input:last-child {
+        width: 170px;  
+    }
+    /* footer-area */
+    .footer-area p {
+        font-size: 15px;
+    }
+    .footer-area .social-icon a {
+        padding: 9px;
+        font-size: 32px;
+    }
+}
