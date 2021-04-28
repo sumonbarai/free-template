@@ -120,10 +120,12 @@ ul{
 .header-area .title-part i{
     width: 35px;
     height: 35px;
-    border:2px solid #fff;
+    border:2px solid #23232e;
+    color: #23232e;
     border-radius: 50%;
     line-height: 35px;
     position: absolute;
+    z-index: 99999;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
@@ -131,6 +133,44 @@ ul{
 }
 .header-area .title-part i:hover{
     color: #7b77c9;
+}
+
+.svg-section {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.svg-section svg {
+    position: relative;
+    display: block;
+    width: calc(153% + 1.3px);
+    height: 234px;
+}
+
+.svg-section .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .svg-section svg {
+        width: calc(172% + 1.3px);
+        height: 234px;
+    }
+   
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .svg-section svg {
+        width: calc(143% + 1.3px);
+        height: 83px;
+    }
 }
 /*---- work-area
 ============================================= */
