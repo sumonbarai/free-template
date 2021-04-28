@@ -29,6 +29,11 @@
     .section-title{
         font-size: 24px; 
     }
+    .header-area .title-part i{
+        border:2px solid #fff;
+        color: #fff;
+        
+    }
     /* header-area */
     .header-area {
         height: 50vh;
